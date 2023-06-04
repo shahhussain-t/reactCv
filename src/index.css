@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     
+    }
+    .main_cv
+    {
+    margin: auto;
+     width: 90%;
+    height: 1100px;
+    margin-top: 50px;
+    
+       
+    }
+    .head_cv{
+    
+        display: flex;
+        justify-content:space-evenly ;
+        align-items: center;
+        margin-bottom: 20px;
+        font-size: 1.6rem;
+    }
+    .profile_pic
+    {
+    
+        height: 150px;
+       
+    margin-right: 100px;
+        
+    }
+    
+    img{
+    
+       
+        height: 150px;
+        border-radius: 60%;
+        
+    }
+    
+    .summary>h1,.eduction h1,.skils >h1,.workExpericec>h1,.Refernce>h1
+    {
+    
+        background-color: darkgrey;
+        padding: 5px;
+        margin-bottom: 10px;
+        border-radius: 10px;
+    }
+    
+    .summary>p{
+    
+        font-weight: bold;
+        margin-left: 20px;
+        margin-bottom: 10px;
+        font-size: 1.3rem;
+    }
+    
+    .inner{
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .skils>ul{
+    margin-left: 50px;
+    font-size: 1.3rem;
+    }
+    
+    .Refernce>p{
+    
+    margin-top: 10px;
+        font-size: 1.2rem;
+        margin-left: 20px;
+    }
